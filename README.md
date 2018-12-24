@@ -1,3 +1,5 @@
+This document was created by Github API which is able to use on command line.
+
 How to create github repository using command line
 ==================================================
 * curl -u "ID:PASSWORD" https://api.github.com/user/repos -d '{"name":"PROJECT_NAME"}';
