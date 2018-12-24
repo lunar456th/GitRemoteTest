@@ -1,4 +1,4 @@
-This document was created by Github API that can use on command line.
+This document was created by Github API that can use on command line, required neither token nor ssh key.
 
 How to create github repository using command line
 ==================================================
