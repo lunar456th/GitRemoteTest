@@ -7,5 +7,6 @@ How to create github repository using command line
 * git commit -m "."
 * git remote add origin https://github.com/ID/PROJECT_NAME.git
 * git push -u origin master
-+ put your ID, password and project name into ID, PASSWORD and PROJECT_NAME.
+
+put your ID, password and project name into ID, PASSWORD and PROJECT_NAME.
 
