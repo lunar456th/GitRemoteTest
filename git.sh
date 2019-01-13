@@ -1,14 +1,16 @@
 #!/bin/bash
 
-ID=your_id
-PASSWORD=your_password
-PROJECT_NAME=your_project_name
+ID=yourid
+PASSWORD=yourpassword
+PROJECT_NAME=yourprojectname
 
 curl -u "${ID}:${PASSWORD}" https://api.github.com/user/repos -d '{"name":"${PROJECT_NAME}"}';
+mkdir ${PROJECT_NAME}
+cd ${PROJECT_NAME}
 git init
-touch README.md
+echo "${PROJECT_NAME}" > README.md
 git add *
-git commit -m "."
+git commit -m "create README"
 git remote add origin https://github.com/${ID}/${PROJECT_NAME}.git
 git push -u origin master
 
